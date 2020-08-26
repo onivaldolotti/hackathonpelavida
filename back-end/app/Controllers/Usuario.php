@@ -4,7 +4,8 @@ class Usuario extends BaseController
 {
 	public function index()
 	{
-        send();
+        $u = model('Usuario_model', false);
+        $u->login();
 	}
 	//--------------------------------------------------------------------
 

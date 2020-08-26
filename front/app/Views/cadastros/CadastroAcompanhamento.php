@@ -1,6 +1,6 @@
 <div id="container-acompanhamento">
     <div class="content-acompanhmento" align="center">
-        <form class="form">
+        <form class="form" id="formularioAcompanhamento">
             <div class="form-row">
                 <div class="form-group col-md-12">
                 <label for="nome">Nome</label>
@@ -10,12 +10,12 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="data">Data de Nasc.</label>
-                    <input type="date" class="form-control" id="data" placeholder="Data de Nasc.">
+                    <input name="data" type="date" class="form-control" id="data" placeholder="Data de Nasc.">
                     </div>
                     <div class="form-group col-md-6">
                     <label for="CNS">CNS</label>
                     <input type="number" class="form-control" id="CNS" placeholder="CNS">
-                    </div>
+                </div>
             </div>                
             <div class="form-row">
                 <div class="form-group col-md-4">
@@ -185,7 +185,7 @@
                     <textarea class="form-control" id="obs-gerais" placeholder="Observações gerais"></textarea>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Encerrar Acompanhamento</button>
+            <button type="submit" class="btn btn-primary" id="btnSalvar">Encerrar Acompanhamento</button>
         </form>
     </div>
 </div>

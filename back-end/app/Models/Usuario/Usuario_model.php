@@ -1,6 +1,8 @@
-<?php
+<?php namespace App\Models;
 
-class Usuario_model extends MY_Model {
+use CodeIgniter\Model;
+
+class UsuarioModel extends Model {
 
     public function login($params)
     {

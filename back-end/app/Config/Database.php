@@ -32,9 +32,9 @@ class Database extends \CodeIgniter\Database\Config
 	public $default = [
 		'DSN'      => '',
 		'hostname' => 'localhost',
-		'username' => '',
-		'password' => '',
-		'database' => '',
+		'username' => 'root',
+		'password' => 'root',
+		'database' => 'metsys',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
@@ -90,7 +90,7 @@ class Database extends \CodeIgniter\Database\Config
 		// we don't overwrite live data on accident.
 		if (ENVIRONMENT === 'testing')
 		{
-			$this->defaultGroup = 'tests';
+			$this->defaultGroup = 'default';
 
 			// Under Travis-CI, we can set an ENV var named 'DB_GROUP'
 			// so that we can test against multiple databases.

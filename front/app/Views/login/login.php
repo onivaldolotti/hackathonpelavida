@@ -1,6 +1,6 @@
 <div id="container-login">
     <div class="content" align="center">
-        <form method="POST" class="col-sm-4">
+        <form method="POST" class="col-sm-4" id=formularioLogin>
             <div class="input-container">
                 <i class="fa fa-user icon"></i>
                 <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Usuário"><br>

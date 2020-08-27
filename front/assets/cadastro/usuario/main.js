@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    
     //retorna para a view todas as unidades de saude
     requestApi(
         //-------------------------Verificar o nome no back-----------------
@@ -23,6 +24,7 @@ $(document).ready(function () {
     
     //se ja existir este usuario, recupera os dados e mostra na view
     $(document).on('blur', '#cpf', function(ev) {
+        let cpf = $("#cpf").value;
 
         requestApi(
             //----------------------Verificar o nome no back------------------
@@ -44,6 +46,9 @@ $(document).ready(function () {
                 } else {
                     $("#monitoramento").checked;
                 }
+            },
+            {
+                'cpf': cpf
             }
         );  
     });

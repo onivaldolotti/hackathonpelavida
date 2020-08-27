@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    //função para requisições a API
+
+    //função para requisições das unidades de saude
     requestApi(
         //-------------------------Verificar o nome no back-----------------
         'unidadeSaude/buscar',
@@ -32,6 +33,7 @@ $(document).ready(function () {
         }
     );
 
+    //função para recuperar todas as comorbidades
     requestApi(
         //------------------------Verificar o nome no back-------------------------
         'comorbidades/buscar',
@@ -53,6 +55,7 @@ $(document).ready(function () {
         }
     );
 
+    //função para a recuperação de todos os sinais
     requestApi(
         //--------------------Verificar o nome no back-------------------------
         'sinais/buscar',
@@ -74,7 +77,9 @@ $(document).ready(function () {
         }
     );
 
+    //função para recuperar os dados do paciente
     $(document).on('blur', '#cns', function(ev) {
+        let cns = $("#cns").value;
 
         requestApi(
             //----------------------Verificar o nome no back------------------
@@ -90,6 +95,7 @@ $(document).ready(function () {
                 $("#dataNasc").val(res.pac_dtNasc);
                 $("#cns").val(res.pac_cns);
                 $("#telefone").val(res.pac_telefone);
+                $("#cep").val(res.pac_cep);
                 $("#logradouro").val(res.logradouro);
                 $("#complemento").val(res.complemento);
                 $("#numero").val(res.numero);
@@ -101,6 +107,9 @@ $(document).ready(function () {
                 $("#dataIsolamento").val(res.pac_data_inicio_isolamento + 14);
 
                 //-----------tipo de convenio na tabela paciente???--------------
+            },
+            {
+                'cns':cns
             }
         );  
     });

@@ -13,8 +13,8 @@
             </div>
             <div class="form-row">
                 <div class="form-group col-md-4">
-                    <label for="data">Data de Nasc.</label>
-                    <input type="date" class="form-control" id="data" name="data" placeholder="Data de Nasc.">
+                    <label for="dataNasc">Data de Nasc.</label>
+                    <input type="date" class="form-control" id="dataNasc" name="dataNasc" placeholder="Data de Nasc.">
                 </div>
                 <div class="form-group col-md-4">
                     <label for="telefone">Telefone</label>
@@ -131,7 +131,9 @@
                 <div class="form-group col-md-4">
                     <label for="tipoExame">Tipo de exame</label>
                     <select id="tipoExame" name="tipoExame" class="form-control">
-                        <option></option>
+                        <option value="pcr_rt">PCRT-RT</option>
+                        <option value="sorologia">Sorologia</option>
+                        <option value="teste_rapido">Teste Rápido</option>                        
                     </select>
                 </div>
                 <div class="form-group col-md-4">
@@ -141,6 +143,9 @@
                 <div class="form-group col-md-4">
                     <label for="resultadoExame">Resultado do Exame</label>
                     <select id="resultadoExame" name="resultadoExame" class="form-control">
+                        <option value="positivo">Positivo</option>
+                        <option value="negativo">Negativo</option>
+                        <option value="aguardando_resultado">Aguardando Resultado</option>
                     </select>
                 </div>
             </div>
@@ -148,17 +153,17 @@
                 <div class="form-group col-md-4">
                     <label for="grupoRisco">Grupo de Risco</label>
                     <select id="grupoRisco" name="grupoRisco" class="form-control">
-                        <option selected>Sim</option>
-                        <option >Não</option>
+                        <option value="0">Não</option>
+                        <option value="1">Sim</option>
                     </select>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="dataLigacao">Data</label>
-                    <input type="date" class="form-control" id="dataLigacao" name="dataLigacao">
+                    <input type="date" class="form-control" id="dataLigacao" name="dataLigacao" readonly>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="horaLigacao">Hora</label>
-                    <input type="time" class="form-control" id="horaLigacao" name="horaLigacao">
+                    <input type="time" class="form-control" id="horaLigacao" name="horaLigacao" readonly>
                 </div>
             </div>
             <div class="form-row">
@@ -172,18 +177,24 @@
                 <div class="form-group col-md-4">
                     <label for="isolamento">Em Isolamento</label>
                     <select id="isolamento" name="isolamento" class="form-control">
-                        <option selected>Sim</option>
-                        <option >Não</option>
+                        <option value="0">Não</option>
+                        <option value="1">Sim</option>
                     </select>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="orientacao">Orientação</label>
                     <select id="orientacao" name="orientacao" class="form-control">
+                        <option value="bem">Bem</option>
+                        <option value="confuso">Consufo</option>
+                        <option value="sonolento">Sonolento</option>
                     </select>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="apetite">Apetite</label>
                     <select id="apetite" name="apetite" class="form-control">
+                        <option value="bom">Bom</option>
+                        <option value="diminuido">Diminuido</option>
+                        <option value="anoretico">Anorético</option>
                     </select>
                 </div>
             </div>
@@ -198,19 +209,32 @@
                 <div class="form-group col-md-4">
                     <label for="febre">Febre</label>
                     <select id="febre" name="febre" class="form-control">
+                        <option value="ausente">Ausente</option>
+                        <option value="pico_baixo">Um Pico Baixo</option>
+                        <option value="persistente">Febre Persistente - 3 Picos por dia</option>
                     </select>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="tosse">Tosse</label>
                     <select id="tosse" name="tosse" class="form-control">
+                        <option value="ausente">Ausente</option>
+                        <option value="consegue_falar">Consegue falar sem tossir</option>
+                        <option value="nao_fala">Não completa uma frase sem tossir</option>
                     </select>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="faltaArCansaco">Falta de Ar/Cansaço</label>
                     <select id="faltaArCansaco" name="faltaArCansaco" class="form-control">
+                        <option value="ausente">Ausente</option>
+                        <option value="presente">Presente ao esforço</option>
+                        <option value="intensa">Intensa no repouso</option>
                     </select>
                 </div>
             </div>
+
+            <!-- 
+                Situação da familia 
+            -->
 
             <div class="form-row">
                 <div class="form-group col-md-12">
@@ -219,6 +243,8 @@
                 </div>
             </div>
             <button type="submit" class="btn btn-primary" id="btnSalvar" name="btnSalvar">Salvar Acompanhamento</button>
+            <button type="submit" class="btn btn-primary" id="btnLimpar">Limpar</button>
+            <button type="submit" class="btn btn-primary" id="btnRetornar">Retornar</button>
         </form>
     </div>
 </div>

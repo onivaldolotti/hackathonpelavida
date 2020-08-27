@@ -83,13 +83,17 @@
                 </div>
             </div>
             <div class="form-row">
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-4">
                     <label for="dataInicioSintomas">Data de Início dos Sintomas</label>
                     <input type="date" class="form-control" id="dataInicioSintomas" name="dataInicioSintomas" placeholder="Data de Início dos Sintomas">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-4">
                     <label for="dataColetaExame">Data da Coleta do Exame</label>
                     <input type="date" class="form-control" id="dataColetaExame" name="dataColetaExame" placeholder="Data da Coleta do Exame">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="dataObito">Óbito </label>
+                    <input type="date" class="form-control" id="dataObito" name="dataObito" placeholder="Óbito">
                 </div>
             </div>
             <div class="form-row">
@@ -98,8 +102,8 @@
                     <input type="text" class="form-control" id="descAvaliacao" name="descAvaliacao" placeholder="Descrição Avaliação">
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="inicioIsolamento">Inicio do isolamento</label>
-                    <input type="date" class="form-control" id="inicioIsolamento" name="inicioIsolamento" placeholder="Inicio do Isolamento">
+                    <label for="dataInicioIsolamento">Inicio do isolamento</label>
+                    <input type="date" class="form-control" id="dataInicioIsolamento" name="dataInicioIsolamento" placeholder="Inicio do Isolamento">
                 </div>
             </div>
             <button type="submit" class="btn btn-primary" id="btnSalvar">Salvar</button>

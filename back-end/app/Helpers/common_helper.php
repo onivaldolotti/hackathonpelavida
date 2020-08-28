@@ -74,3 +74,34 @@ function getContents($paramentro = false)
     }
     return false;
 }
+
+function validarId($params, $key)
+{
+    if (
+        is_array($params) &&
+        isset($params[$key]) &&
+        is_numeric($params[$key]) &&
+        (int)$params[$key] > 0
+    ) {
+        return true;
+    } else if (is_numeric($params) && (int)$params > 0){
+        return true;
+    }
+
+    return false;
+}
+
+function existeValor($params, $key)
+{
+    if (
+        is_array($params) &&
+        isset($params[$key]) &&
+        $params[$key]
+    ) {
+        return true;
+    } else if ($params){
+        return true;
+    }
+
+    return false;
+}

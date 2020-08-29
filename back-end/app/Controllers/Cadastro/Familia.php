@@ -4,7 +4,7 @@ class Familia extends BaseController
 {
 	function __construct()
 	{
-		$this->FamiliaModel = model('App\Models\Familia\FamiliaModel', false);
+		$this->FamiliaModel = model('App\Models\Cadastro\Familia\FamiliaModel', false);
 	}
 	
 	public function cadastrar()

@@ -4,7 +4,7 @@ class Comorbidade extends BaseController
 {
 	function __construct()
 	{
-		$this->ComorbidadeModel = model('App\Models\Comorbidade\ComorbidadeModel', false);
+		$this->ComorbidadeModel = model('App\Models\Cadastro\Comorbidade\ComorbidadeModel', false);
 	}
 	
 	public function cadastrar()

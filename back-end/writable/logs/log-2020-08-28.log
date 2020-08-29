@@ -496,3 +496,109 @@ CRITICAL - 2020-08-28 20:00:48 --> Cannot use object of type CodeIgniter\Databas
 #3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2020-08-28 20:22:37 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(17): App\Models\ComorbidadeModel->getComorbidades(false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 20:22:59 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(17): App\Models\ComorbidadeModel->getComorbidades(false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 20:23:44 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(17): App\Models\ComorbidadeModel->getComorbidades(false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 20:24:40 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(17): App\Models\ComorbidadeModel->getComorbidades(false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 20:26:07 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 20:26:27 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 20:26:42 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 20:26:48 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 20:26:59 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 20:27:05 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 20:27:18 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 20:27:24 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 20:28:11 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 20:28:21 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 20:28:59 --> Too few arguments to function App\Controllers\Comorbidade::getComorbidades(), 0 passed in C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->getComorbidades()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

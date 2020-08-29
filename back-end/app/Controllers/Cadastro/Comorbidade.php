@@ -12,4 +12,9 @@ class Comorbidade extends BaseController
 		$this->ComorbidadeModel->cadastrar(getContents());
 	}
 
+	public function getComorbidades()
+	{
+		$this->ComorbidadeModel->getComorbidades(getContents());
+	}
+
 }

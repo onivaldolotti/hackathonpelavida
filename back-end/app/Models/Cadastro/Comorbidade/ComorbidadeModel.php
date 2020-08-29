@@ -14,4 +14,15 @@ class ComorbidadeModel extends MY_Model {
         send(200, array("id"=> $this->db->insertID()));
     }
 
+    public function getComorbidades($dados)
+    {
+        $build = $this->db->table('metsys.comorbidade');
+        print_r($dados['id']);
+        if( isset($dados['id']) && $dados['id'] && $dados['id'] > 0 ) {
+            $build->where("com_id", $dados['id']);
+        }
+        $comorbidades = $build->get()->getResultArray();
+        send(200, $comorbidades);
+    }
+
 }

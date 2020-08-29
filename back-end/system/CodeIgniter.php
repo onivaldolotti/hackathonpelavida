@@ -171,6 +171,7 @@ class CodeIgniter
 	{
 		$this->startTime = microtime(true);
 		$this->config    = $config;
+		helper('common_helper');
 	}
 
 	//--------------------------------------------------------------------

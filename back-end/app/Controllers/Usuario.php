@@ -2,11 +2,19 @@
 
 class Usuario extends BaseController
 {
-	public function index()
+	function __construct()
 	{
-        $u = model('Usuario_model', false);
-        $u->login();
+		$this->usuarioModel = model('App\Models\Usuario\UsuarioModel', false);
 	}
-	//--------------------------------------------------------------------
+
+	public function login()
+	{
+        $this->usuarioModel->login(getContents());
+	}
+	
+	public function cadastrar()
+	{
+		$this->usuarioModel->cadastrar(getContents());
+	}
 
 }

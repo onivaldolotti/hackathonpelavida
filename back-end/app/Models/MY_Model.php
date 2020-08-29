@@ -11,7 +11,7 @@ class MY_Model extends Model {
         $this->db = \Config\Database::connect();
     }
 
-    public function validarIdCadastro($params)
+    public function validarIdParaCadastro($params)
     {
         if (!validarId($params, 'usu_id_empresa') || !validarId($params, 'usu_id_unidade_saude')) {
             send(400, null, 'Sem id de empresa ou unidade de saude');

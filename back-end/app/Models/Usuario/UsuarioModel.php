@@ -31,7 +31,7 @@ class UsuarioModel extends MY_Model {
 
     public function cadastrar($params)
     {
-        $this->validarIdCadastro($params);
+        $this->validarIdParaCadastro($params);
         if (
             !existeValor($params, 'usu_nome') ||
             !existeValor($params, 'usu_login') ||

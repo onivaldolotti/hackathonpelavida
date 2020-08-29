@@ -1,7 +1,5 @@
 <?php namespace App\Models;
 
-use CodeIgniter\Model;
-
 class ComorbidadeModel extends MY_Model {
 
     public function cadastrar($dados)

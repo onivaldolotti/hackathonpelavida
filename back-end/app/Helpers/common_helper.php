@@ -75,33 +75,60 @@ function getContents($paramentro = false)
     return false;
 }
 
-function validarId($params, $key)
+function validarId($ArrayOuVariavel, $key = null)
 {
     if (
-        is_array($params) &&
-        isset($params[$key]) &&
-        is_numeric($params[$key]) &&
-        (int)$params[$key] > 0
+        is_array($ArrayOuVariavel) &&
+        $key &&
+        isset($ArrayOuVariavel[$key]) &&
+        is_numeric($ArrayOuVariavel[$key]) &&
+        (int)$ArrayOuVariavel[$key] > 0
     ) {
         return true;
-    } else if (is_numeric($params) && (int)$params > 0){
+    } else if (is_numeric($ArrayOuVariavel) && (int)$ArrayOuVariavel > 0){
         return true;
     }
 
     return false;
 }
 
-function existeValor($params, $key)
+function existeValor($ArrayOuVariavel, $key = null)
 {
     if (
-        is_array($params) &&
-        isset($params[$key]) &&
-        $params[$key]
+        is_array($ArrayOuVariavel) &&
+        $key &&
+        isset($ArrayOuVariavel[$key]) &&
+        $ArrayOuVariavel[$key] &&
+        strlen((string)$ArrayOuVariavel[$key]) > 0
     ) {
         return true;
-    } else if ($params){
+    } else if (
+            !is_array($ArrayOuVariavel) &&
+            $ArrayOuVariavel && 
+            strlen((string)$ArrayOuVariavel) > 0
+        ){
         return true;
     }
 
     return false;
+}
+
+function existeCampoEValor($camposObrigatorios, $dadosValidar)
+{
+    $camposInvalidos = [];
+
+    foreach ($camposObrigatorios as $campo) {
+        if (
+            !validarId($dadosValidar, $campo) && 
+            !existeValor($dadosValidar, $campo)) {
+            $camposInvalidos[] = $campo;
+        }
+    }
+
+    if (count($camposInvalidos)) {
+        $camposInvalidos = 'Campos obrigatórios: ' . implode(", ", $camposInvalidos);
+        send(400, null, $camposInvalidos);
+    }
+
+    return true;
 }

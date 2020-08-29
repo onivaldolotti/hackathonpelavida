@@ -1,0 +1,498 @@
+CRITICAL - 2020-08-28 18:43:11 --> Call to a member function cadastrar() on null
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 18:43:27 --> Call to a member function cadastrar() on null
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 18:43:48 --> Call to a member function cadastrar() on null
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 18:43:55 --> Call to a member function cadastrar() on null
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 18:43:57 --> Call to a member function cadastrar() on null
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-28 18:45:37 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:45:57 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:46:10 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:50:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::lastInsertId()
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 18:51:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 19:06:53 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Como...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Como...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Como...')
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\ModelFactory.php(74): class_exists('App\\Models\\Como...')
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\ModelFactory.php(35): CodeIgniter\Database\ModelFactory::createClass('App\\Models\\Como...', NULL)
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\Common.php(774): CodeIgniter\Database\ModelFactory::get('App\\Models\\Como...', false, NULL)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(7): model('App\\Models\\Como...', false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(890): App\Controllers\Comorbidade->__construct()
+#9 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#10 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-08-28 19:07:19 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Como...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Como...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Como...')
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\ModelFactory.php(74): class_exists('App\\Models\\Como...')
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\ModelFactory.php(35): CodeIgniter\Database\ModelFactory::createClass('App\\Models\\Como...', NULL)
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\Common.php(774): CodeIgniter\Database\ModelFactory::get('App\\Models\\Como...', false, NULL)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(7): model('App\\Models\\Como...', false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(890): App\Controllers\Comorbidade->__construct()
+#9 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#10 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-08-28 19:08:05 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Como...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Como...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Como...')
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\ModelFactory.php(74): class_exists('App\\Models\\Como...')
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\ModelFactory.php(35): CodeIgniter\Database\ModelFactory::createClass('App\\Models\\Como...', NULL)
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\Common.php(774): CodeIgniter\Database\ModelFactory::get('App\\Models\\Como...', false, NULL)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(7): model('App\\Models\\Como...', false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(890): App\Controllers\Comorbidade->__construct()
+#9 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#10 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-08-28 19:17:13 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:17:35 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:20:18 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp\\htdocs...', 2144, Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2144): array_keys('Arma')
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2074): CodeIgniter\Database\BaseBuilder->setInsertBatch(Array, '', true)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(13): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:20:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insertBatch()
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 19:22:36 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp\\htdocs...', 2144, Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2144): array_keys('Arma')
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2074): CodeIgniter\Database\BaseBuilder->setInsertBatch(Array, '', true)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(13): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:22:52 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2091): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(13): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:23:39 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:24:44 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:28:34 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:29:01 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2091): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(14): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:29:12 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp\\htdocs...', 2144, Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2144): array_keys('Asma')
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2074): CodeIgniter\Database\BaseBuilder->setInsertBatch(Array, '', true)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(14): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:29:46 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::getCompiledInsert() must be of the type bool, array given, called in C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php on line 14
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(14): CodeIgniter\Database\BaseBuilder->getCompiledInsert(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-28 19:30:07 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array, true)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:30:12 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array, false)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:30:41 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Comorbidade\ComorbidadeModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:32:41 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(12): App\Models\UsuarioModel->login(Array)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->login()
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:34:05 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(53): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:39:56 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(53): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:40:36 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(53): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:41:20 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(53): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:41:36 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(52): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:42:02 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(53): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:42:33 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(52): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:42:57 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(52): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:43:17 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(52): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:44:04 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(52): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:45:09 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(52): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:45:56 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(52): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:46:45 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(53): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:51:00 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\app\Models\Usuario\UsuarioModel.php(53): App\Models\UsuarioModel->login(Array, true)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Usuario.php(17): App\Models\UsuarioModel->cadastrar(Array)
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-28 19:53:49 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 19:54:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultID()
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 19:54:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultObject()
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 19:54:49 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Como...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Como...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Como...')
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\ModelFactory.php(74): class_exists('App\\Models\\Como...')
+#5 C:\xampp\htdocs\hackathonpelavida\back-end\system\Database\ModelFactory.php(35): CodeIgniter\Database\ModelFactory::createClass('App\\Models\\Como...', NULL)
+#6 C:\xampp\htdocs\hackathonpelavida\back-end\system\Common.php(774): CodeIgniter\Database\ModelFactory::get('App\\Models\\Como...', false, NULL)
+#7 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(7): model('App\\Models\\Como...', false)
+#8 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(890): App\Controllers\Comorbidade->__construct()
+#9 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#10 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-08-28 19:55:02 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 19:57:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 19:58:04 --> Call to a member function insertID() on bool
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 19:58:21 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 20:00:48 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\hackathonpelavida\back-end\app\Controllers\Comorbidade.php(12): App\Models\ComorbidadeModel->cadastrar(Array)
+#1 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(918): App\Controllers\Comorbidade->cadastrar()
+#2 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comorbidade))
+#3 C:\xampp\htdocs\hackathonpelavida\back-end\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hackathonpelavida\back-end\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

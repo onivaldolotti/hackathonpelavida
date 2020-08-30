@@ -1,16 +1,15 @@
 $(document).ready(function () {
 
-    $(document).on('click', '#btnSalvar', function (ev) {
-        let dados = $('#formularioLogin').serializableArray();
+    $(document).on('click', '#btnEntrar', function (ev) {
+        ev.preventDefault();
+        let dados = getDadosFormulario('formularioLogin');
 
         requestApi(
-            'login/logar',
+            'Usuario/login',
             function (res) {
                 console.log(res);
             },
-            {
-                dados
-            }
+            dados
         );
     }); 
 });

@@ -96,12 +96,12 @@ $(document).ready(function () {
                 $("#cns").val(res.pac_cns);
                 $("#telefone").val(res.pac_telefone);
                 $("#cep").val(res.pac_cep);
-                $("#logradouro").val(res.logradouro);
-                $("#complemento").val(res.complemento);
-                $("#numero").val(res.numero);
-                $("#bairro").val(res.bairro);
-                $("#cidade").val(res.localidade);
-                $("#uf").val(res.uf);
+                $("#logradouro").val(res.pac_endereco);
+                $("#complemento").val(res.pac_complemento);
+                $("#numero").val(res.pac_numero);
+                $("#bairro").val(res.pac_bairro);
+                $("#cidade").val(res.pac_cidade);
+                $("#uf").val(res.pac_uf);
                 $("#primeiraAvaliacao").val(`${res.pac_descPrimeiraAvaliacao} ${res.pac_dataPrimeiraAvaliacao}`);
                //-----------------------regra do inicio do cadastro + 14 dias de monitoramento???--------------------------------
                 $("#dataIsolamento").val(res.pac_data_inicio_isolamento + 14);

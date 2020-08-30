@@ -46,19 +46,15 @@
                 </div>
             </div>
             <div class="form-row">
-                <div class="form-group col-md-3">
-                    <label for="complemento">Complemento</label>
-                    <input type="text" class="form-control" id="complemento" name="complemento" placeholder="Complemento">
-                </div>
-                <div class="form-group col-md-4">
+                <div class="form-group col-md-5">
                     <label for="bairro">Bairro</label>
                     <input type="text" class="form-control" id="bairro" name="bairro" placeholder="Bairro">
                 </div>
-                <div class="form-group col-md-3">
+                <div class="form-group col-md-4">
                     <label for="cidade">Cidade</label>
                     <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Cidade">
                 </div>
-                <div class="form-group col-md-2">
+                <div class="form-group col-md-3">
                     <label for="uf">UF</label>
                     <select id="uf" name="uf" class="form-control">
                         <option></option>

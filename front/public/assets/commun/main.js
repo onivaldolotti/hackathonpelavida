@@ -1,5 +1,5 @@
 function requestApi(link, cb = '', params = {}) {
-    let url = 'http://hackathonpelavida/backend/';
+    let url = 'http://localhost:8080/hackathonpelavida/back-end/';
 
     if (url.includes('http')) {
         url = link;        

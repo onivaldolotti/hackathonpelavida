@@ -5,7 +5,7 @@ $(document).ready(function () {
         let dados = $('#cadastroUnidadeSaude').serializableArray();
 
         requestApi(
-            'unidadeSaude/salvar',
+            'UnidadeSaude/cadastrar',
             function (res) {
                 console.log(res);
             },

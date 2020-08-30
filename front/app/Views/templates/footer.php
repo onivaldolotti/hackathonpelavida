@@ -10,5 +10,6 @@
         <script src="<?= base_url("assets/cadastro/unidadeSaude/main.js") ?>"></script>
 
         <!--JS do Template -->
+        <?= $this->endSection() ?>
     </body>
 </html>

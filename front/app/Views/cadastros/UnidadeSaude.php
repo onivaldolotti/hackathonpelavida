@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- inserir variavel do titulo -->
-    <title></title>
-
-
-
-</head>
-<body>
 <div id="container-acompanhamento">
     <div class="content-acompanhmento" align="center">
         <form method="POST" class="form" id="cadastroUnidadeSaude">
@@ -102,18 +89,3 @@
         </form>
     </div>
 </div>
-
-  <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
-
-
-        <!--JS Default -->
-        <script src="<?= base_url("assets/commun/main.js") ?>"></script>
-        <script src="<?= base_url("assets/cadastro/unidadeSaude/main.js") ?>"></script>
-
-        <!--JS do Template -->
-    </body>
-</html>

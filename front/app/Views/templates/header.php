@@ -14,3 +14,7 @@
     
 </head>
 <body>
+<?= $this->renderSection('content') ?>
+
+</body>
+</hmtml>

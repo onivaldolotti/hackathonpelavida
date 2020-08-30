@@ -4,6 +4,6 @@ class Dashboard extends BaseController
 {
 	public function index()
 	{
-		return view('dashboard/dashboard');
+		$this->template('dashboard/dashboard');
 	}
 }

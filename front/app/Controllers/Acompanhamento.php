@@ -4,6 +4,6 @@ class Acompanhamento extends BaseController
 {
 	public function index()
 	{
-		$this->template('cadastros/acompanhamento', $data);
+		$this->template('cadastros/acompanhamento');
 	}
 }

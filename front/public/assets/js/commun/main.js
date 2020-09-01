@@ -1,4 +1,4 @@
-function requestApi(link, cb = '', params = {}) {
+function requestApi(link, cb = '', params = {}, cbErr = '') {
     let url = 'http://localhost/hackathonpelavida/back-end/public/';
 
     if (link.includes('http')) {
@@ -22,7 +22,13 @@ function requestApi(link, cb = '', params = {}) {
             }
         },
         error: function (err) {
-            alert(err.responseJSON.message);
+            if (typeof(cbErr) == 'function') {
+                cbErr(err);
+            }
+            iziToast.error({
+                'position': 'topCenter',
+                'message': err.responseJSON.message || 'Error'
+            });
         }
     });    
 }
@@ -37,4 +43,8 @@ function getDadosFormulario(elementId, dataExtra = {}) {
     filtros = $.extend(objFiltros, dataExtra);
 
     return filtros;
+}
+
+function redirect(url) {
+    window.location.href = url;
 }

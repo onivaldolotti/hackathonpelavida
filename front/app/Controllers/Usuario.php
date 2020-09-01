@@ -4,6 +4,6 @@ class Usuario extends BaseController
 {
 	public function index()
 	{
-		return view('cadastros/usuario');
+		return view('cadastros/Usuario');
 	}
 }

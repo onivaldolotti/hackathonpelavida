@@ -1,0 +1,64 @@
+body {
+    background: #e7e7e7;
+    color: #636363;
+}
+
+.container-login {
+    
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 5px 5px 5px 5px #cecece;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-input-icon {
+    display: flex;
+    align-items: center;
+    color: #25a2b8;
+}
+
+.custom-input {
+    border: solid 1px #17a2b8;
+    border-radius: 50px;
+    width: 266px;
+    height: 38px;
+    padding: 0px 15px;
+}
+
+.custom-input input {
+    outline: none;
+    border: none;
+    color: #636363;
+}
+
+.input-error {
+    box-shadow: 3px 4px 9px 0px #e74a3b8a;
+    border: solid 1px #e74a3b00;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.titulo-sistema {
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    color: #17a2b8;
+    align-items: center;
+    font-size: 24px;
+}
+
+.titulo-sistema i{
+    color: #17a2b8;
+}

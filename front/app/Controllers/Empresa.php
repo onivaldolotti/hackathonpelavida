@@ -4,6 +4,11 @@ class Empresa extends BaseController
 {
 	public function index()
 	{
-		return view('cadastros/empresa');
+
+		$js = array(
+            "assets/js/cadastro/empresa.js"
+		);
+
+		$this->template('cadastros/Empresa', array('js' => $js));
 	}
 }

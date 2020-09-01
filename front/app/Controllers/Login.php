@@ -4,6 +4,10 @@ class Login extends BaseController
 {
 	public function index()
 	{
-		return view('login/login');
+		$js = array(
+            "assets/js/login/main.js"
+		);
+
+		$this->template('login/Login', array('js' => $js));
 	}
 }

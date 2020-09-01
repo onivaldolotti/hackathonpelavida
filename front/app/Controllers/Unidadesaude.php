@@ -4,6 +4,10 @@ class Unidadesaude extends BaseController
 {
 	public function index()
 	{
-		return view('cadastros/unidadesaude');
+		$js = array(
+            "assets/js/cadastro/unidadeSaude.js"
+		);
+
+		$this->template('cadastros/UnidadeSaude', array('js' => $js));
 	}
 }

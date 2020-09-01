@@ -4,6 +4,10 @@ class Usuario extends BaseController
 {
 	public function index()
 	{
-		return view('cadastros/Usuario');
+		$js = array(
+            "assets/js/cadastro/usuario.js"
+		);
+
+		$this->template('cadastros/Usuario', array('js' => $js));
 	}
 }
